@@ -30,3 +30,16 @@
 *.exe
 *.out
 *.app
+
+# Eagle Files
+*.l#*
+*.s#*
+
+# Platform IO stuff
+.pioenvs
+
+# Swap files
+*.swp
+
+# Mac files
+.DS_Store
