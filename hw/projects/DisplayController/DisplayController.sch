@@ -132,57 +132,56 @@
 <symbols>
 <symbol name="ATMEGA32U4">
 <description>8 bit 16Mhz uC with USB</description>
-<pin name="SS/PCINT0/PB0" x="-43.18" y="-5.08" length="middle" rot="R180"/>
-<pin name="VBUS" x="-43.18" y="-2.54" length="middle" rot="R180"/>
-<pin name="UCAP" x="-43.18" y="0" length="middle" rot="R180"/>
-<pin name="UGND" x="-43.18" y="2.54" length="middle" rot="R180"/>
-<pin name="D+" x="-43.18" y="5.08" length="middle" rot="R180"/>
-<pin name="D-" x="-43.18" y="7.62" length="middle" rot="R180"/>
-<pin name="PCINT1/SCLK/PB1" x="-43.18" y="-7.62" length="middle" rot="R180"/>
-<pin name="PDI/PCINT2/MOSI/PB2" x="-43.18" y="-10.16" length="middle" rot="R180"/>
-<pin name="UVCC" x="-43.18" y="10.16" length="middle" rot="R180"/>
-<pin name="AINT6/AIN0/PE6" x="-43.18" y="12.7" length="middle" rot="R180"/>
-<pin name="PDO/PCINT3/MISO/PB3" x="-43.18" y="-12.7" length="middle" rot="R180"/>
-<pin name="PD1/SDA/INT1" x="-17.78" y="-20.32" length="middle" rot="R270"/>
-<pin name="PD0/OC0B/SCL/INT0" x="-20.32" y="-20.32" length="middle" rot="R270"/>
-<pin name="XTAL1" x="-22.86" y="-20.32" length="middle" rot="R270"/>
-<pin name="XTAL2" x="-25.4" y="-20.32" length="middle" rot="R270"/>
-<pin name="GND3" x="-27.94" y="-20.32" length="middle" rot="R270"/>
-<pin name="VCC2" x="-30.48" y="-20.32" length="middle" rot="R270"/>
-<pin name="PD2/RXD1/INT2" x="-15.24" y="-20.32" length="middle" rot="R270"/>
-<pin name="PD3/TXD1/INT3" x="-12.7" y="-20.32" length="middle" rot="R270"/>
-<pin name="!RESET" x="-33.02" y="-20.32" length="middle" rot="R270"/>
-<pin name="PB7/PCINT7OC0A/OC1C/!RTS" x="-35.56" y="-20.32" length="middle" rot="R270"/>
-<pin name="PD5/XCK1/!CTS" x="-10.16" y="-20.32" length="middle" rot="R270"/>
-<pin name="PB6/PCINT6/OC1B/OC4B" x="-2.54" y="5.08" length="middle"/>
-<pin name="PB5/PCINT5/OC1A/!OC4B" x="-2.54" y="2.54" length="middle"/>
-<pin name="PB4/PCINT4/ADC11" x="-2.54" y="0" length="middle"/>
-<pin name="PD7/T0/OC4D/ADC10" x="-2.54" y="-2.54" length="middle"/>
-<pin name="PD6/T1/ADC9/!OC4D" x="-2.54" y="-5.08" length="middle"/>
-<pin name="PD4/ICP1/ADC8" x="-2.54" y="-7.62" length="middle"/>
-<pin name="PC6/OC3A/!OC4A" x="-2.54" y="7.62" length="middle"/>
-<pin name="PC7/ICP3/CLK0/OC4A" x="-2.54" y="10.16" length="middle"/>
-<pin name="AVCC1" x="-2.54" y="-10.16" length="middle"/>
-<pin name="GND2" x="-2.54" y="-12.7" length="middle"/>
-<pin name="PE2/!HWB" x="-2.54" y="12.7" length="middle"/>
-<pin name="PF0/ADC0" x="-27.94" y="20.32" length="middle" rot="R90"/>
-<pin name="PF1/ADC1" x="-25.4" y="20.32" length="middle" rot="R90"/>
-<pin name="PF4/ADC4/TCK" x="-22.86" y="20.32" length="middle" rot="R90"/>
-<pin name="PF5/ADC5/TMS" x="-20.32" y="20.32" length="middle" rot="R90"/>
-<pin name="PF6/ADC6/TDO" x="-17.78" y="20.32" length="middle" rot="R90"/>
-<pin name="PF7/ADC7/TDI" x="-15.24" y="20.32" length="middle" rot="R90"/>
-<pin name="AVREF" x="-30.48" y="20.32" length="middle" rot="R90"/>
-<pin name="GND0" x="-33.02" y="20.32" length="middle" rot="R90"/>
-<pin name="GND1" x="-12.7" y="20.32" length="middle" rot="R90"/>
-<pin name="VCC1" x="-10.16" y="20.32" length="middle" rot="R90"/>
-<pin name="AVCC0" x="-35.56" y="20.32" length="middle" rot="R90"/>
-<wire x1="-43.18" y1="20.32" x2="-2.54" y2="20.32" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="20.32" x2="-2.54" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-20.32" x2="-43.18" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="-43.18" y1="-20.32" x2="-43.18" y2="20.32" width="0.254" layer="94"/>
-<circle x="-38.1" y="15.24" radius="2.54" width="0.254" layer="94"/>
-<text x="-7.62" y="-22.86" size="2.54" layer="95">&gt;NAME</text>
-<text x="-22.86" y="0" size="2.54" layer="96" align="bottom-center">&gt;VALUE</text>
+<pin name="SS/PCINT0/PB0" x="-55.88" y="-5.08" length="middle"/>
+<pin name="VBUS" x="-55.88" y="-2.54" length="middle"/>
+<pin name="UCAP" x="-55.88" y="0" length="middle"/>
+<pin name="UGND" x="-55.88" y="2.54" length="middle"/>
+<pin name="D+" x="-55.88" y="5.08" length="middle"/>
+<pin name="D-" x="-55.88" y="7.62" length="middle"/>
+<pin name="PCINT1/SCLK/PB1" x="-55.88" y="-7.62" length="middle"/>
+<pin name="PDI/PCINT2/MOSI/PB2" x="-55.88" y="-10.16" length="middle"/>
+<pin name="UVCC" x="-55.88" y="10.16" length="middle"/>
+<pin name="AINT6/AIN0/PE6" x="-55.88" y="12.7" length="middle"/>
+<pin name="PDO/PCINT3/MISO/PB3" x="-55.88" y="-12.7" length="middle"/>
+<pin name="PD1/SDA/INT1" x="-17.78" y="-33.02" length="middle" rot="R90"/>
+<pin name="PD0/OC0B/SCL/INT0" x="-20.32" y="-33.02" length="middle" rot="R90"/>
+<pin name="XTAL1" x="-22.86" y="-33.02" length="middle" rot="R90"/>
+<pin name="XTAL2" x="-25.4" y="-33.02" length="middle" rot="R90"/>
+<pin name="GND3" x="-27.94" y="-33.02" length="middle" rot="R90"/>
+<pin name="VCC2" x="-30.48" y="-33.02" length="middle" rot="R90"/>
+<pin name="PD2/RXD1/INT2" x="-15.24" y="-33.02" length="middle" rot="R90"/>
+<pin name="PD3/TXD1/INT3" x="-12.7" y="-33.02" length="middle" rot="R90"/>
+<pin name="!RESET" x="-33.02" y="-33.02" length="middle" rot="R90"/>
+<pin name="PB7/!RTS" x="-35.56" y="-33.02" length="middle" rot="R90"/>
+<pin name="PD5/XCK1/!CTS" x="-10.16" y="-33.02" length="middle" rot="R90"/>
+<pin name="PB6/PCINT6/OC1B/OC4B" x="10.16" y="5.08" length="middle" rot="R180"/>
+<pin name="PB5/PCINT5/OC1A/!OC4B" x="10.16" y="2.54" length="middle" rot="R180"/>
+<pin name="PB4/PCINT4/ADC11" x="10.16" y="0" length="middle" rot="R180"/>
+<pin name="PD7/T0/OC4D/ADC10" x="10.16" y="-2.54" length="middle" rot="R180"/>
+<pin name="PD6/T1/ADC9/!OC4D" x="10.16" y="-5.08" length="middle" rot="R180"/>
+<pin name="PD4/ICP1/ADC8" x="10.16" y="-7.62" length="middle" rot="R180"/>
+<pin name="PC6/OC3A/!OC4A" x="10.16" y="7.62" length="middle" rot="R180"/>
+<pin name="PC7/CLK0/OC4A" x="10.16" y="10.16" length="middle" rot="R180"/>
+<pin name="AVCC1" x="10.16" y="-10.16" length="middle" rot="R180"/>
+<pin name="GND2" x="10.16" y="-12.7" length="middle" rot="R180"/>
+<pin name="PE2/!HWB" x="10.16" y="12.7" length="middle" rot="R180"/>
+<pin name="PF0/ADC0" x="-27.94" y="33.02" length="middle" rot="R270"/>
+<pin name="PF1/ADC1" x="-25.4" y="33.02" length="middle" rot="R270"/>
+<pin name="PF4/ADC4/TCK" x="-22.86" y="33.02" length="middle" rot="R270"/>
+<pin name="PF5/ADC5/TMS" x="-20.32" y="33.02" length="middle" rot="R270"/>
+<pin name="PF6/ADC6/TDO" x="-17.78" y="33.02" length="middle" rot="R270"/>
+<pin name="PF7/ADC7/TDI" x="-15.24" y="33.02" length="middle" rot="R270"/>
+<pin name="AVREF" x="-30.48" y="33.02" length="middle" rot="R270"/>
+<pin name="GND0" x="-33.02" y="33.02" length="middle" rot="R270"/>
+<pin name="GND1" x="-12.7" y="33.02" length="middle" rot="R270"/>
+<pin name="VCC1" x="-10.16" y="33.02" length="middle" rot="R270"/>
+<pin name="AVCC0" x="-35.56" y="33.02" length="middle" rot="R270"/>
+<wire x1="-50.8" y1="27.94" x2="5.08" y2="27.94" width="0.254" layer="94"/>
+<wire x1="5.08" y1="27.94" x2="5.08" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-27.94" x2="-50.8" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="-50.8" y1="-27.94" x2="-50.8" y2="27.94" width="0.254" layer="94"/>
+<circle x="-45.72" y="22.86" radius="2.54" width="0.254" layer="94"/>
+<text x="-50.8" y="30.48" size="2.54" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -208,9 +207,9 @@
 <connect gate="G$1" pin="PB4/PCINT4/ADC11" pad="28"/>
 <connect gate="G$1" pin="PB5/PCINT5/OC1A/!OC4B" pad="29"/>
 <connect gate="G$1" pin="PB6/PCINT6/OC1B/OC4B" pad="30"/>
-<connect gate="G$1" pin="PB7/PCINT7OC0A/OC1C/!RTS" pad="12"/>
+<connect gate="G$1" pin="PB7/!RTS" pad="12"/>
 <connect gate="G$1" pin="PC6/OC3A/!OC4A" pad="31"/>
-<connect gate="G$1" pin="PC7/ICP3/CLK0/OC4A" pad="32"/>
+<connect gate="G$1" pin="PC7/CLK0/OC4A" pad="32"/>
 <connect gate="G$1" pin="PCINT1/SCLK/PB1" pad="9"/>
 <connect gate="G$1" pin="PD0/OC0B/SCL/INT0" pad="18"/>
 <connect gate="G$1" pin="PD1/SDA/INT1" pad="19"/>
