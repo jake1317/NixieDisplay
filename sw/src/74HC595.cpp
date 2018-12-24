@@ -17,6 +17,8 @@ void sr_init(int clk, int data, int latch, int oe) {
   pinMode(sr_pin_oe, OUTPUT);
 
   SPI.begin();
+  SPI.setBitOrder(MSBFIRST);
+  SPI.setDataMode(SPI_MODE0);
 
   sr_enable();
 }
